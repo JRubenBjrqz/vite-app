@@ -1,5 +1,12 @@
 import _ from 'underscore';
 
+/**
+ * 
+ * @param {Array<String>} tiposDeCarta Ejemplo: ['C','D','H','S']
+ * @param {Array<String>} tiposEspeciales Ejemplo: ['A','J','Q','K']
+ * @returns {Array<String>} Retorna un nuevo deck de cartas
+ */
+
 export const crearDeck = (tiposDeCarta, tiposEspeciales) => {
 
     let deck = [];
